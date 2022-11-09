@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,500;0,700;1,400&family=Concert+One&family=Special+Elite&display=swap');
+
+/* 
+font-family: 'Bai Jamjuree', sans-serif;
+font-family: 'Concert One', cursive;
+font-family: 'Special Elite', cursive;
+ */
+
+/* 
+ --imperial-red: #e63946ff;
+--honeydew: #f1faeeff;
+--powder-blue: #a8dadcff;
+--celadon-blue: #457b9dff;
+--prussian-blue: #1d3557ff; 
+*/
+
+
+
+
+
+/* HEADER */
+* {
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1d3557ff;
+    margin: 0%;
+
+
+}
+
+.logoHeader {
+    width: 8.5em;
+    border-radius: 50%;
+}
+
+.navBar {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Special Elite', cursive;
+    justify-content: space-evenly;
+
+}
+
+li {
+
+    margin: .3em;
+
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+li a {
+    text-decoration: none;
+    font-size: 1.8em;
+    padding: .2em;
+    color: #457b9dff;
+
+
+}
+
+li a:hover {
+    color: #e63946ff;
+    padding: .35em;
+    transition: 1s;
+
+}
+
+.subAreas {
+    padding-top: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+/* MAIN */
+main {
+    margin: 0;
+    min-height: 80vh;
+    background-image: url("../Images/Decoracion/backgroundMain.png");
+    background-size: 100%;
+    background-color: #f1faeeff;
+}
+
+h1 {
+    padding-top: .2em;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    flex-direction: row;
+    font-size: 2em;
+    font-family: 'Special Elite', cursive;
+}
+
+
+
+
+
+
+/*                       FOOTER              */
+footer {
+
+    font-size: 1em;
+    color: #457b9dff;
+    background-color: #1d3557ff;
+}
