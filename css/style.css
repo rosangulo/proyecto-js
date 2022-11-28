@@ -30,7 +30,7 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: #1d3557ff;
+    background-color: #1d3557ff !important;
     margin: 0%;
 
 
@@ -41,12 +41,30 @@ header {
     border-radius: 50%;
 }
 
-.navBar {
+.navbar  {
     display: flex;
     flex-direction: row;
     font-family: 'Special Elite', cursive;
     justify-content: space-evenly;
+    width: 100%;
+    
 
+}
+
+
+.container-fluid{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between !important;
+}
+.navbar-expand-lg .navbar-collapse{
+    justify-content: flex-end !important;
+}/* {
+    justify-content: space-between;
+} */
+
+.navbar-toggler{
+    background-color: #457b9dff !important;
 }
 
 li {
@@ -60,20 +78,28 @@ ul {
     list-style-type: none;
 }
 
-li a {
+/* li a */ 
+.nav-link {
     text-decoration: none;
-    font-size: 1.8em;
+    font-size: 2.65em;
     padding: .2em;
-    color: #457b9dff;
-
+    color: #457b9dff !important;
 
 }
+.dropdown-item{
+    color: #457b9dff !important;
+    font-size: .9em;
+}
 
-li a:hover {
-    color: #e63946ff;
+.nav-link:hover  {
+    color: #e63946ff !important;
     padding: .35em;
     transition: 1s;
 
+}
+.dropdown-item:hover{
+    color: #e63946ff !important;
+    transition: 1s;
 }
 
 .subAreas {
@@ -85,12 +111,73 @@ li a:hover {
 
 
 /* MAIN */
+
+
+.container {
+    margin: 0;
+    min-width: 100vw;
+    min-height: 90vh;
+    background: linear-gradient(180deg, rgba(63,88,101,1) 3%, rgba(96,122,78,1) 11%, rgba(226,206,180,1) 25%);
+    background-size: 100%;
+    padding: 0;
+    
+}
+
+h1 {
+    padding-top: .2em;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    flex-direction: row;
+    font-size: 2em;
+    font-family: 'Special Elite', cursive;
+}
+
+h2{
+    font-family: 'Concert One', cursive;
+}
+
+
+
+
+/*       */
+
+
+
+
+/* ******************** FOOTER**********************/
+
+
+
+
+
+footer {
+
+    font-size: 1em;
+    color: #457b9dff;
+    background-color: #1d3557ff;
+    padding-bottom: .5em;
+    bottom: 0;
+
+}
+
+
+
+
+
+
+
+/**********************GENERAL************************/
+
+.none{
+    display:none;
+}
 main {
     margin: 0;
     min-height: 80vh;
-    background-image: url("../Images/Decoracion/backgroundMain.png");
+    
     background-size: 100%;
-    background-color: #f1faeeff;
+    
 }
 
 h1 {
