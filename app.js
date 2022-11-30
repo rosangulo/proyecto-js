@@ -13,14 +13,14 @@ class Servicio {
 
 
 /**************servicios************ */
-const servicio1 = new Servicio(1, "nutricion", "dieta balanceada", "./Images/Decoracion/plato-equilibrado.jpg", 2500);
-const servicio2 = new Servicio(2, "nutricion", "dieta adelgazante", "./Images/Decoracion/Detox-salad.jpg", 3000);
-const servicio3 = new Servicio(3, "nutricion", "control dietario", "./Images/Decoracion/nutricion-clinica-muelle-heredia-malaga.jpg", 2000);
-const servicio4 = new Servicio(4, "fisioterapia", "masoterapia", "./Images/Decoracion/tratamientos-de-masoterapia.jpg", 3000);
-const servicio5 = new Servicio(5, "fisioterapia", "drenaje linfático", "./Images/Decoracion/drenajeLinfatico.jpg", 3000);
-const servicio6 = new Servicio(6, "fisioterapia", "rehabilitacion", "./Images/Decoracion/rehabilitacion.jpeg", 2500);
-const servicio7 = new Servicio(7, "spa", "fangoterapia", "./Images/Decoracion/ES_fango.jpg", 3500);
-const servicio8 = new Servicio(8, "spa", "masajes con priedras calientes", "./Images/Decoracion/Descontracturacion-con-piedras.jpg", 3000);
+const servicio1 = new Servicio(1, "Nutricion", "Dieta balanceada", "./Images/Decoracion/plato-equilibrado.jpg", 2500);
+const servicio2 = new Servicio(2, "Nutricion", "Dieta adelgazante", "./Images/Decoracion/Detox-salad.jpg", 3000);
+const servicio3 = new Servicio(3, "Nutricion", "Control dietario", "./Images/Decoracion/nutricion-clinica-muelle-heredia-malaga.jpg", 2000);
+const servicio4 = new Servicio(4, "Fisioterapia", "Masoterapia", "./Images/Decoracion/tratamientos-de-masoterapia.jpg", 3000);
+const servicio5 = new Servicio(5, "Fisioterapia", "Drenaje linfático", "./Images/Decoracion/drenajeLinfatico.jpg", 3000);
+const servicio6 = new Servicio(6, "Fisioterapia", "Rehabilitacion", "./Images/Decoracion/rehabilitacion.jpeg", 2500);
+const servicio7 = new Servicio(7, "SPA", "Fangoterapia", "./Images/Decoracion/ES_fango.jpg", 3500);
+const servicio8 = new Servicio(8, "SPA", "Masajes con priedras calientes", "./Images/Decoracion/Descontracturacion-con-piedras.jpg", 3000);
 let servicios = [servicio1, servicio2, servicio3, servicio4, servicio5, servicio6, servicio7, servicio8];
 
 
@@ -43,10 +43,10 @@ function renderizar() {
 
         //          ESTRUCTURA DE LAS CARDS
         const contenedor = document.createElement("div");
-        contenedor.classList.add("card", "col-sm-4");
+        contenedor.classList.add("tarjeta");
         //          CUERPO DE CARDS
         const cuerpoCard = document.createElement("div");
-        cuerpoCard.classList.add("card-body");
+        cuerpoCard.classList.add("contenedorImagen");
         //          TITULO
         const cuerpoCardsTitulo = document.createElement("h5");
         cuerpoCardsTitulo.classList.add("card-title");
@@ -59,7 +59,7 @@ function renderizar() {
 
         //          IMAGEN  
         const imgCard = document.createElement("img");
-        imgCard.classList.add("img-fluid");
+        imgCard.classList.add("imagenTarjeta");
         imgCard.setAttribute("src", info.imgsrc);
         //          PRECIO
         const precioCard = document.createElement("p");

@@ -191,6 +191,83 @@ h1 {
 }
 
 
+.contenedor-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.columnas-productos{
+    position: relative;
+    display: grid;
+    grid-template-columns: 16em 16em 16em 16em;
+    gap: 5px;
+    
+    
+}
+
+.tarjeta{
+    width: 15em;
+    height: 24em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#e2ceb4;
+    border-bottom-right-radius: 12%;
+    border-top-left-radius: 12%;
+    border-bottom-left-radius: 3%;
+    border-top-right-radius: 3%;
+    filter: drop-shadow(0 0 0.75rem #1d3557ff);
+
+
+
+}
+.contenedorImagen{
+    position: relative;
+    overflow: hidden;
+    width: 13em;
+    height: 23em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: .5em;
+    
+}
+.imagenTarjeta{
+    height: 12em;
+    
+    
+}
+
+@media (max-width: 1000px) {
+    *{
+        font-size: 11px;
+    }
+    .columnas-productos{
+        grid-template-columns: 16em 16em 16em ;
+    }
+    
+}
+
+@media (max-width: 680px) {
+    *{
+        font-size: 11px;
+    }
+    .columnas-productos{
+        grid-template-columns: 16em 16em ;
+    }
+    
+}
+
+@media (max-width: 400px) {
+    *{
+        font-size: 10px;
+    }
+    .columnas-productos{
+        grid-template-columns: 16em;
+    }
+}
+
 
 
 
