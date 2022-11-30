@@ -14,7 +14,7 @@ class Servicio {
 
 /**************servicios************ */
 const servicio1 = new Servicio(1, "Nutricion", "Dieta balanceada", "./Images/Decoracion/plato-equilibrado.jpg", 2500);
-const servicio2 = new Servicio(2, "Nutricion", "Dieta adelgazante", "./Images/Decoracion/Detox-salad.jpg", 3000);
+const servicio2 = new Servicio(2, "Nutricion", "Dieta adelgazante", "./Images/Decoracion/detox-dish.jpg", 3000);
 const servicio3 = new Servicio(3, "Nutricion", "Control dietario", "./Images/Decoracion/nutricion-clinica-muelle-heredia-malaga.jpg", 2000);
 const servicio4 = new Servicio(4, "Fisioterapia", "Masoterapia", "./Images/Decoracion/tratamientos-de-masoterapia.jpg", 3000);
 const servicio5 = new Servicio(5, "Fisioterapia", "Drenaje linfático", "./Images/Decoracion/drenajeLinfatico.jpg", 3000);
