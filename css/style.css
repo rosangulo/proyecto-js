@@ -93,6 +93,11 @@ ul {
     transition: 1s;
 
 }
+.activ{
+    font-weight: bolder ;
+    font-size: 1.65em ;
+    color: rgb(140, 51, 59) ;
+}
 .dropdown-item{
     color: #457b9dff !important;
     font-size: .9em;
@@ -235,35 +240,7 @@ position: relative;
     align-items: center;
     
 }
-
-
-
-
-
-
-/* ******************** FOOTER**********************/
-
-
-
-
-
-footer {
-
-    font-size: 1em;
-    color: #457b9dff;
-    background-color: #1d3557ff;
-    padding-bottom: .5em;
-    bottom: 0;
-
-}
-
-
-
-
-
-
-
-/**********************GENERAL************************/
+/*    MAIN SERVICIOS   */
 
 .none{
     display:none;
@@ -335,9 +312,44 @@ h1 {
     
 }
 
+
+
+
+
+
+/* ******************** FOOTER**********************/
+
+
+
+
+
+footer {
+
+    font-size: 1em;
+    color: #457b9dff;
+    background-color: #1d3557ff;
+    padding-bottom: .5em;
+    bottom: 0;
+
+}
+
+
+
+/**************************************/
+/***************MEDIAS*****************/
+/**************************************/
+
+
+
+
+
+
 @media (max-width: 1000px) {
     *{
         font-size: 11px;
+    }
+    .bannerIndex{
+        font-size: .95em;
     }
     .columnas-productos{
         grid-template-columns: 16em 16em 16em ;
@@ -349,6 +361,9 @@ h1 {
     *{
         font-size: 11px;
     }
+    .bannerIndex{
+        font-size: .65em;
+    }
     .columnas-productos{
         grid-template-columns: 16em 16em ;
     }
@@ -359,6 +374,9 @@ h1 {
     *{
         font-size: 10px;
     }
+    .bannerIndex{
+        font-size: .45em;
+    }
     .columnas-productos{
         grid-template-columns: 16em;
     }
@@ -368,10 +386,3 @@ h1 {
 
 
 
-/*                       FOOTER              */
-footer {
-
-    font-size: 1em;
-    color: #457b9dff;
-    background-color: #1d3557ff;
-}

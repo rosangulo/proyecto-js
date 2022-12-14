@@ -13,14 +13,14 @@ class Servicio {
 
 
 /**************servicios************ */
-const servicio1 = new Servicio(1, "Nutricion", "Dieta balanceada", "./Images/Decoracion/plato-equilibrado.jpg", 2500);
-const servicio2 = new Servicio(2, "Nutricion", "Dieta adelgazante", "./Images/Decoracion/gazpacho-andaluz-casero.jpg", 3000);
-const servicio3 = new Servicio(3, "Nutricion", "Control dietario", "./Images/Decoracion/nutricion-clinica-muelle-heredia-malaga.jpg", 2000);
-const servicio4 = new Servicio(4, "Fisioterapia", "Masoterapia", "./Images/Decoracion/tratamientos-de-masoterapia.jpg", 3000);
-const servicio5 = new Servicio(5, "Fisioterapia", "Drenaje linfático", "./Images/Decoracion/drenajeLinfatico.jpg", 3000);
-const servicio6 = new Servicio(6, "Fisioterapia", "Rehabilitacion", "./Images/Decoracion/rehabilitacion.jpeg", 2500);
-const servicio7 = new Servicio(7, "SPA", "Fangoterapia", "./Images/Decoracion/ES_fango.jpg", 3500);
-const servicio8 = new Servicio(8, "SPA", "Masajes con priedras calientes", "./Images/Decoracion/Descontracturacion-con-piedras.jpg", 3000);
+const servicio1 = new Servicio(1, "Nutricion", "Dieta balanceada", "../Images/Decoracion/plato-equilibrado.jpg", 2500);
+const servicio2 = new Servicio(2, "Nutricion", "Dieta adelgazante", "../Images/Decoracion/gazpacho-andaluz-casero.jpg", 3000);
+const servicio3 = new Servicio(3, "Nutricion", "Control dietario", "../Images/Decoracion/nutricion-clinica-muelle-heredia-malaga.jpg", 2000);
+const servicio4 = new Servicio(4, "Fisioterapia", "Masoterapia", "../Images/Decoracion/tratamientos-de-masoterapia.jpg", 3000);
+const servicio5 = new Servicio(5, "Fisioterapia", "Drenaje linfático", "../Images/Decoracion/drenajeLinfatico.jpg", 3000);
+const servicio6 = new Servicio(6, "Fisioterapia", "Rehabilitacion", "../Images/Decoracion/rehabilitacion.jpeg", 2500);
+const servicio7 = new Servicio(7, "SPA", "Fangoterapia", "../Images/Decoracion/ES_fango.jpg", 3500);
+const servicio8 = new Servicio(8, "SPA", "Masajes con priedras calientes", "../Images/Decoracion/Descontracturacion-con-piedras.jpg", 3000);
 let servicios = [servicio1, servicio2, servicio3, servicio4, servicio5, servicio6, servicio7, servicio8];
 
 
@@ -53,8 +53,8 @@ function renderizar() {
         cuerpoCardsTitulo.textContent = info.nombreProducto;
 
         //          AREA
-        const cardArea = document.createElement("h6")
-        cardArea.classList.add("card-subtitle", "text-muted", "mb-2")
+        const cardArea = document.createElement("h6");
+        cardArea.classList.add("card-subtitle", "text-muted", "mb-2");
         cardArea.textContent = info.area;
 
         //          IMAGEN  
