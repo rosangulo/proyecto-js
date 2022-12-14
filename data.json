@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "area": "Nutrición",
+        "nombreProducto": "Dieta balanceada",
+        "imgsrc": "./Images/Decoracion/plato-equilibrado.jpg",
+        "precio": 2500,
+        "alt": "Dieta balanceada"
+    },
+    {
+        "id": 2,
+        "area": "Nutrición" ,
+        "nombreProducto": "Dieta adelgazante",
+        "imgsrc": "./Images/Decoracion/Detox-salad.jpg",
+        "precio": 3000,
+        "alt":"Dieta adelgazante"
+    },
+    {
+        "id": 3,
+        "area": "Nutrición",
+        "nombreProducto": "Control dietario",
+        "imgsrc": "./Images/Decoracion/nutricion-clinica-muelle-heredia-malaga.jpg",
+        "precio": 2000,
+        "alt":"Control dietario"
+    },
+    {
+        "id": 4,
+        "area": "Fisioterapia",
+        "nombreProducto": "Masoterapia",
+        "imgsrc": "./Images/Decoracion/tratamientos-de-masoterapia.jpg",
+        "precio": 3000,
+        "alt":"Fisioterapia"
+    },
+    {
+        "id": 5,
+        "area": "Fisioterapia",
+        "nombreProducto": "Drenaje linfático",
+        "imgsrc": "./Images/Decoracion/drenajeLinfatico.jpg",
+        "precio": 3000,
+        "alt":"Drenaje linfático"
+    },
+    {
+        "id": 6,
+        "area": "Fisioterapia",
+        "nombreProducto": "Rehabilitacion",
+        "imgsrc": "./Images/Decoracion/rehabilitacion.jpeg",
+        "precio": 2500,
+        "alt":"Rehabilitacion"
+    },
+    {
+        "id": 7,
+        "area": "SPA",
+        "nombreProducto": "Fangoterapia",
+        "imgsrc": "./Images/Decoracion/ES_fango.jpg",
+        "precio": 3500,
+        "alt":"Fangoterapia"
+    },
+    {
+        "id": 8,
+        "area": "SPA",
+        "nombreProducto": "Masajes con priedras calientes",
+        "imgsrc": "./Images/Decoracion/Descontracturacion-con-piedras.jpg",
+        "precio": 3000,
+        "alt":"Masajes con priedras calientes"
+    }
+]

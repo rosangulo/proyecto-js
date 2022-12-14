@@ -78,12 +78,19 @@ ul {
     list-style-type: none;
 }
 
-/* li a */ 
-.nav-link {
+
+.navLink {
     text-decoration: none;
-    font-size: 2.65em;
+    font-size: 1.4em ;
     padding: .2em;
-    color: #457b9dff !important;
+    margin: .3em;
+    color: #457b9dff ;
+
+}
+.navLink:hover  {
+    color: #e63946ff ;
+    padding: .35em;
+    transition: 1s;
 
 }
 .dropdown-item{
@@ -137,10 +144,99 @@ h2{
     font-family: 'Concert One', cursive;
 }
 
+/**********************main index***********************/
+.bannerIndex{
+    position: relative;
+    overflow: hidden;
+    max-width: 100%;
+    height: 20em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    font-size: 1.2em;
+}
+.contenedor-banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imagenBan{
+height: 60em;
+position: relative;
+
+}
+.bannerTitle{
+    position: absolute;
+    color: #f1faeeff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
 
 
 
-/*       */
+
+.tarjeta-index{
+    width: 18em;
+    height: 24em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedorImagen-Index{
+    position: relative;
+    overflow: hidden;
+    width: 15em;
+    height: 23em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: .5em;
+}
+.contenedorIndex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/**********************MAIN NOSOTROS****************/
+
+.mainNos{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    
+    text-align: center;
+    font-family: 'Special Elite', cursive;
+    
+}
+.nosTexto{
+    height: 20em;
+    width: 40em;
+    position: absolute;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.nosParrafo{
+    padding-top: .3em;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
 
 
 
